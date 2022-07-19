@@ -1,0 +1,13 @@
+.container div{
+    height: 50px;
+    width: 150px ;
+    border: 1px solid gray;
+    background-color: red;
+    border-radius: 10px;
+
+}
+.container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
