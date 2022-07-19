@@ -208,3 +208,11 @@ hr{
 }
 
 /* -------------------------------footer end--------------- */
+/* -------------------------footer icons------------------------ */
+.icons {
+    margin-top:30px ;
+    text-align: center;
+}
+.icons a{
+    margin-left: 10px;
+}
