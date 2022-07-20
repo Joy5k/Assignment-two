@@ -293,7 +293,7 @@ hr{
         display: grid;
         grid-template-rows: repeat(2,1fr);
         justify-content: center;
-        height:2000px;
+        height:1770px;
         margin-bottom: 60px;
     }
     .side-bar{
@@ -307,7 +307,7 @@ hr{
 
     }
     .first-div{
-        
+        flex-grow: 1;
     }
     .first-div a{
         border: 1px solid gray;
@@ -321,6 +321,7 @@ hr{
         transition: 0.5s;
     }
     .first-div a:hover{
+        border:none;
         background-color: #DD0000;
         color: #fff;
     }
@@ -377,7 +378,7 @@ footer{
  }
  .footer-section{
     background-color: black;
-    height: 250px;
+    height: 300px;
 
 }
 .footer-title h1{
@@ -401,9 +402,31 @@ hr{
     justify-content: center;
 
 }
+/* body{
+    overflow: hidden;
+  } */
 
 
  /* --------------------------------footer end--------------- */
+
+ /* -------------mobile view-------start------------ */
+ body{
+   overflow: hidden;
+ }
+
+ /* .first-container{
+    display: flex;
+    flex-direction:column-reverse ;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
 }
+ /* -------------mobile view-------end------------ */
+
 
 
