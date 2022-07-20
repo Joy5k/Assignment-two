@@ -69,7 +69,7 @@ main{
 .side-bar{
     background-color: black;
     border-radius: 10px;
-    width: 312px;
+    width:430px;
     height: 312px;
     display: flex;
     flex-direction:column;
@@ -78,7 +78,7 @@ main{
 }
 
 .first-div a{
-    text-decoration: none;
+    color: black;    text-decoration: none;
     height:20px;
     width:35px;
     padding: 15px 30px;
@@ -89,10 +89,14 @@ main{
 .first-div .second-link{
     padding: 15px 60px;
 } 
+.first-div .first-link{
+    padding: 15px 30px;
+    /* background-color:#DD0000; */
+    color: black;
+}
 .first-div .third-link{
     padding: 15px 75px;
-    background-color:#DD0000;
-    color: #fff;
+    color:black;
 }
 .first-div a:hover{
     background-color: #DD0000;
@@ -104,7 +108,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.blog{
+.blog, .blog-hide{
     margin: 10px;
     border: 1px solid gray;
     border-radius: 10px;
@@ -166,6 +170,9 @@ main{
     width: 22px;
     height: 20px;
 }
+#extra-btn{
+    display: none;
+}
 
 
 /* ----------------------------footer start---------------- */
@@ -208,9 +215,6 @@ hr{
     font-size: 14px;
     font-weight: 500;
 }
-
-/* -------------------------------footer end--------------- */
-/* -------------------------footer icons------------------------ */
 .icons {
     margin-top:30px ;
     text-align: center;
@@ -218,6 +222,10 @@ hr{
 .icons a{
     margin-left: 10px;
 }
+
+/* -------------------------------footer end--------------- */
+/* -------------------------footer icons------------------------ */
+
 
 
 
@@ -228,6 +236,9 @@ hr{
 
 /* ------------------------------responsive sector start-------------- */
 @media only screen and (max-width:922px) {
+    body{
+        width:100vw;
+    }
     .first-container{
         display: flex;
         justify-content: center;
